@@ -6,7 +6,7 @@ import Navbar from "./navbar"
 import AdminDashboard from "./component/AdminDashboard"
 import CommonDashboard from "./component/CommonDashboard"
 import Profile from "./component/profile"
-import "./app.css"
+import "./App.css"
 import ProtectedRoutes from "./component/ProtectedRoutes"
 import Logout from "./component/Logout"
 
