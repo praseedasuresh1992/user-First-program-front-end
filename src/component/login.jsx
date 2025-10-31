@@ -11,9 +11,10 @@ function Login() {
     }
     const submit=async (e)=>{
         e.preventDefault()
-        console.log("this")
+    
         try{
             const res=await api.post('/login',data)
+                console.log(res)
             console.log(res.data.message)
             console.log(res.data.user)
             localStorage.setItem('user',JSON.stringify(res.data.user))
