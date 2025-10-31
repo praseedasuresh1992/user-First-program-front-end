@@ -11,6 +11,7 @@ function Login() {
     }
     const submit=async (e)=>{
         e.preventDefault()
+        console.log("this")
         try{
             const res=await api.post('/login',data)
             console.log(res.data.message)
